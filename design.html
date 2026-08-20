@@ -574,6 +574,37 @@
       margin-bottom: 12px;
     }
 
+    .internship-certificate {
+      margin-bottom: 24px;
+    }
+
+    .certificate-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      color: var(--amber);
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 600;
+      padding: 12px 20px;
+      background: rgba(232, 163, 61, 0.1);
+      border: 1px solid var(--amber);
+      border-radius: 8px;
+      transition: all 0.3s ease;
+    }
+
+    .certificate-link:hover {
+      background: var(--amber);
+      color: var(--bg);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(232, 163, 61, 0.3);
+    }
+
+    .certificate-link svg {
+      width: 24px;
+      height: 24px;
+    }
+
     .internship-responsibilities ul {
       list-style: none;
       padding: 0;
@@ -583,7 +614,6 @@
       color: var(--text-dim);
       font-size: 15px;
       padding: 8px 0;
-      padding-left: 24px;
       position: relative;
     }
 
@@ -1109,7 +1139,20 @@
           <li>Contributing to design system development and maintenance</li>
         </ul>
       </div>
-      
+
+      <div class="internship-certificate">
+        <a href="Rohith Internship Completion Certificate.pdf" target="_blank" class="certificate-link">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <path d="M16 13H8"></path>
+            <path d="M16 17H8"></path>
+            <path d="M10 9H8"></path>
+          </svg>
+          View Internship Certificate
+        </a>
+      </div>
+
       <div class="skills-gained">
         <h4>Skills Gained:</h4>
         <p>UI/UX Research & Visual Design, Prototyping & Interaction Design, Basic Understanding of Game UI, Principles & Design Systems, Team Collaboration</p>
